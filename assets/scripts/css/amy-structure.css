@@ -76,9 +76,9 @@ h3 {
 /*------------NAVIGATION-------------*/
 
 .navtext {
-	font-size: 1em;
+	font-size: 1.1em;
 	text-decoration:none;
-	color:#000;
+	color:#0000ff;
     }
 
 .navtext:hover {
@@ -95,25 +95,27 @@ h3 {
 .navlist li {
 	padding:0 0 0 0;
 	display: inline;
-	border: 1.5px dotted #0000ff
 	}
 		
 			
 /*----------CONTENT------------*/
 /*----------TEST TEXT------------*/
 
-#testtext { width: 800px;
-			padding: 100px 0 0 200px;
-			font-size: 2.5em;
+#infotext { width: 700px;
+			padding: 30px 0 0 90px;
+			font-size: 2.3em;
+			font-weight:400;
 			color:#0000ff;
+			position: absolute;
 			text-align:left;
 }
 
-#testtext2 { width: 800px;
-			padding: 0 0 0 200px;
-			font-size: 2.5em;
-			color:#0000ff;
-			text-align:left;
+#profileimage1 {
+			width: 256px;
+			position: relative;
+			padding: 18px 50px 0 0;
+			z-index: -1;
+			float: right;
 }
 
 
@@ -162,7 +164,6 @@ Also used by the hover_area div's. Needs to be as big as image was. */
 .colour_image{
 	opacity: 0;
 	z-index: 1;
-	position: absolute;
 	left: 0px;
 	top: 0px;
 	}	
@@ -307,8 +308,8 @@ Also used by the hover_area div's. Needs to be as big as image was. */
 	}
 		
 .backtoproj:hover {
-	text-decoration:line-through;
- 	color:#000;
+	text-decoration:underline;
+ 	color:#0000ff;
    	}
 		
 
@@ -329,8 +330,9 @@ Also used by the hover_area div's. Needs to be as big as image was. */
 	color:#0000ff;
 	font-family:"Inconsolata", "PT mono", monospace; 
 	font-weight:normal; font-style:normal; font-size:0.7em;
-	}		
-		
+	}	
+	
+
 		
 		
 		
