@@ -3,26 +3,43 @@
 $(document).ready(function(){
 	
 	
-	
+	var changeMe = 20;
 	
 	// If you declare the variable here, all the functions will be able to use it
-	var imageHeightsmall = $(".hover_area_small").find("div").height(); // To remember what value to go back to
-	var imageHeightlarge = $(".hover_area_large").find("div").height(); // To remember what value to go back to
-	var croppedSizesmall = 0.9; // The ratio of the image left after it is cropped
-	var croppedSizelarge = 0.96; // The ratio of the image left after it is cropped
-	var aniTime 		= 250; // The time of the animation. Make it lower to go faster!
-	
-	
+	var croppedSizesmall = 	30 + changeMe ; 	// The ratio of the image left after it is cropped
+	var croppedSizelarge = 	30 + changeMe; 		// The ratio of the image left after it is cropped
+	var textTopMarginSml =	150 - changeMe; 	// The ratio of the text margin to the small image height
+	var textTopMarginLrg =	357 - changeMe; 	// The ratio of the text margin to the large image height	
+	var startTextTopMargin = 50;
+	var aniTime 		 = 	400; 	// The time of the animation. Make it lower to go faster!
+	var decisionSize 	 =  200; 	// The size, above which, an image is considered big
 	
 	// When the mouse hovers over a hover_area div element
-	$(".hover_area_small").mouseenter(function(){
+	$(".hover_area").mouseenter(function(){
+			
+			// Get the image height
+			var imageHeight = $(this).height();
+		
+			var croppedSize;
+			var textTopMargin;
+		
+			if(imageHeight >= decisionSize)
+			{
+				croppedSize = croppedSizelarge;
+				textTopMargin = textTopMarginLrg;
+			}
+			else
+			{
+				croppedSize = croppedSizesmall;
+				textTopMargin = textTopMarginSml;	
+			}
 			
 			// Crop the image
 			$(this).find("div").animate(
-			{height: imageHeightsmall*croppedSizesmall},{duration: aniTime, queue: false});
+			{height: imageHeight - croppedSize},{duration: aniTime, queue: false});
 			// Animate the text
-			$(this).find(".funky_text").animate(
-			{top: imageHeightsmall*croppedSizesmall},{duration: aniTime, queue: false});
+			$(this).find(".rollover_text").animate(
+			{top: textTopMargin},{duration: aniTime, queue: false});
 			// Animate the colour
 			$(this).find(".colour_image").animate(
 			{opacity: 1.0},{duration: aniTime, queue: false});
@@ -30,52 +47,21 @@ $(document).ready(function(){
 	});
 	
 	// When the mouse hovers over a hover_area div element
-	$(".hover_area_small").mouseleave(function(){
+	$(".hover_area").mouseleave(function(){
 			
+			// Get the image height
+			var imageHeight = $(this).height();
 			// Change the height of the div element, i.e. uncrop the image
 			$(this).find("div").animate(
-			{height: imageHeightsmall},{duration: aniTime, queue: false});
+			{height: imageHeight},{duration: aniTime, queue: false});
 			// Animate the text
-			$(this).find(".funky_text").animate(
-			{top: -imageHeightsmall*croppedSizesmall},{duration: aniTime, queue: false});
+			$(this).find(".rollover_text").animate(
+			{top: startTextTopMargin},{duration: aniTime, queue: false});
 			// Animate the colour
 			$(this).find(".colour_image").animate(
 			{opacity: 0},{duration: aniTime, queue: false});
 			
 	});
-	
-	// LARGE IMAGES! When the mouse hovers over a hover_area div element
-	$(".hover_area_large").mouseenter(function(){
-			
-			// Crop the image
-			$(this).find("div").animate(
-			{height: imageHeightlarge*croppedSizelarge},{duration: aniTime, queue: false});
-			// Animate the text
-			$(this).find(".funky_text").animate(
-			{top: imageHeightlarge*croppedSizelarge},{duration: aniTime, queue: false});
-			// Animate the colour
-			$(this).find(".colour_image").animate(
-			{opacity: 1.0},{duration: aniTime, queue: false});
-			
-	});
-	
-	// When the mouse hovers over a hover_area div element
-	$(".hover_area_large").mouseleave(function(){
-			
-			// Change the height of the div element, i.e. uncrop the image
-			$(this).find("div").animate(
-			{height: imageHeightlarge},{duration: aniTime, queue: false});
-			// Animate the text
-			$(this).find(".funky_text").animate(
-			{top: -imageHeightlarge*croppedSizelarge},{duration: aniTime, queue: false});
-			// Animate the colour
-			$(this).find(".colour_image").animate(
-			{opacity: 0},{duration: aniTime, queue: false});
-			
-	});
-	
-	
-	
 	
 	
 });

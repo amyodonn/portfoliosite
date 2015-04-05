@@ -20,11 +20,12 @@ body {
 
 
 .informational_text li {
-	font-size:0.8em;
-	line-height:1.25em;
+	font-size:0.7em;
+	line-height:1.3em;
 	font-family:"Inconsolata", "PT mono", monospace; font-weight:400; font-style:normal;
 	}
-   
+
+/*----THIS REFERS TO TITLE-------------*/
 
 h2 {
 	font-size:1em;
@@ -33,9 +34,11 @@ h2 {
 	font-family:"Inconsolata", "PT mono", monospace; font-weight: 700; font-style:normal;
 	color:#0000ff;
     }
+	
+/*----THIS REFERS TO SUBTITLE-------------*/
 
 h3 {
-	font-size:0.7em;
+	font-size:0.65em;
 	color:#000;
 	font-family:"Inconsolata", "PT mono", monospace; font-weight:normal; font-style:normal;
 	padding:0 0 20px 0;
@@ -54,6 +57,7 @@ h3 {
 /*---------------HEADER-------------*/
 			
 #header {
+	z-index:2;
 	width:960px;
 	height:94px;
 	position:fixed;
@@ -72,7 +76,7 @@ h3 {
 /*------------NAVIGATION-------------*/
 
 .navtext {
-	font-size: .9em;
+	font-size: 1em;
 	text-decoration:none;
 	color:#000;
     }
@@ -89,12 +93,31 @@ h3 {
     }
 		
 .navlist li {
-	display:inline;
-	padding:0 0 0 10px;
+	padding:0 0 0 0;
+	display: inline;
+	border: 1.5px dotted #0000ff
 	}
 		
 			
 /*----------CONTENT------------*/
+/*----------TEST TEXT------------*/
+
+#testtext { width: 800px;
+			padding: 100px 0 0 200px;
+			font-size: 2.5em;
+			color:#0000ff;
+			text-align:left;
+}
+
+#testtext2 { width: 800px;
+			padding: 0 0 0 200px;
+			font-size: 2.5em;
+			color:#0000ff;
+			text-align:left;
+}
+
+
+
 /*-----IMAGES IN HOME PAGE-----*/
 			
 #content {
@@ -169,7 +192,6 @@ Also used by the hover_area div's. Needs to be as big as image was. */
 						
 /*----------PROJECT PAGE CONTENT------*/	
 /*----------FIRST IMAGE IN PROJ PAGE--*/
-
 .image1 {
 	padding:0 32px 0 auto;
 	}
@@ -179,18 +201,17 @@ Also used by the hover_area div's. Needs to be as big as image was. */
 .title {
 	width:256px;
 	float:left;
-	padding:0 0 0 auto;
+	padding:0 0 0 40px;
 	}
 	  
 .subtitle {
 	width:256px;
-	padding:0 0 15px 0;
+	padding:0 0 10px 40px;
 	}
 
 .informational_text li {
 	display:inline;
-	font-size:0.72em;
-
+	font-size:0.65em;
 	}
 
 /*--------INFORMATION PARAGRAPH ONE---*/	
@@ -243,23 +264,35 @@ Also used by the hover_area div's. Needs to be as big as image was. */
 	}	
 			
 .linktotop li {
-	padding:0 0 0 68px;
+	padding:0 0 0 32px;
 	float:left;
 	}
 			   
 .footerlist li {
-	padding:17px 113px 0 68px;
 	float:left;
 	display:inline;
     }
-	
-/*------ Alight footer navigation (Excluding back to top button) 
-		 to bottom of footer using margins. 
-		 Couldn't use extra padding for some reason -------*/
-					  
-.alignbottom {
-	margin:10px 0 0 0;
+
+#firstcol {
+	float:left;
+	width:14px;
+	padding: 15px 0 0 258px;
 	}
+	
+#secondcol {
+	float:left;
+	width:77px;
+	padding: 13px 0 0 144px;
+	} 
+	
+#thirdcol {
+	float:left;
+	width:14px;
+	padding: 15px 0 0 144px;
+
+	}
+	
+			 
 			   
 /*------Back to all projects button
 		At the bottom of the page in the template
@@ -267,6 +300,7 @@ Also used by the hover_area div's. Needs to be as big as image was. */
 		decoration on mouse hover. -------*/
 			   
 .backtoproj {
+	
 	font-size:.8em;
 	text-decoration:none;
 	color:#0000ff;
@@ -286,20 +320,15 @@ Also used by the hover_area div's. Needs to be as big as image was. */
 	width:300px;
 	}
 
-/* This is text that follows the image up the page */
-.non_funky_text{
-	color:red;
-	font-family: "Comic Sans MS", cursive, sans-serif;
-	}
-
 /* This is the text that copies paprika.com */ 
-.funky_text{
+.rollover_text{
 	position:absolute;
 	z-index:-1;
 	left:0px;
 	top:0px;
-	color:red;
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color:#0000ff;
+	font-family:"Inconsolata", "PT mono", monospace; 
+	font-weight:normal; font-style:normal; font-size:0.7em;
 	}		
 		
 		

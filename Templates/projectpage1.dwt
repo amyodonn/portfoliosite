@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>portfolio site</title>
+<link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+
+<link href="../assets/scripts/css/amy-structure.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+<body>
+
+
+<div id="container">
+
+<!-- HEADER -->
+	
+	<div id="header" name="top">
+    	<h1><a href="../home.html" id="logo">Amy O'Donnell Designer Visual Identity</a></h1>
+    	<div id="navigation">
+            <ol class="navlist">
+            	<li><a class="navtext" href="../home.html" title="link to homepage">Home</a></li>
+            	<li><a class="navtext" href="../home.html" title="link to info">info</a></li>
+        	</ol>
+		</div>
+	</div>
+        
+<!-- CONTENT -->  
+
+	<div id="content"> 
+		<ul class="image1">
+  			<li><!-- TemplateBeginEditable name="image1" --><img src="../assets/images/graduate-show_1.png" width="810" height="456" alt="grad1"/>
+				<!-- TemplateEndEditable -->
+			</li> 
+        </ul
+    	    	
+    	<div id="info">
+        	<h2 class="title"><!-- TemplateBeginEditable name="title" -->LSAD Graduate Show<!-- TemplateEndEditable --></h2>
+        	<h3 class="subtitle"><!-- TemplateBeginEditable name="subtitle" -->Identity, Print, Environmental<!-- TemplateEndEditable --></h3>
+        	<ol class="informational_text">
+        		<li class="information"><!-- TemplateBeginEditable name="info1" -->A collaborative effort with Threasa Phelan. LSAD 2015 graduate show visual 				identity and design strategy.<!-- TemplateEndEditable --></li>
+        		<li class="information2"><!-- TemplateBeginEditable name="info2" -->The 'ON' campaign represents the confidence and energy of the 
+               	graduates of LSAD.The title also suggests the students themselves are 'ON' and are at the top of their game. blah blah blah blah blah.
+				<!-- TemplateEndEditable --></li>
+        	</ol>     
+		</div>
+        	
+        <ol class="otherimages">
+<!-- the image to float on the left -->
+        	<li class="lefty"><!-- TemplateBeginEditable name="image2" --><img src="../assets/images/graduate-show_3.png" width="395" height="601" 
+            alt="image2"/><!-- TemplateEndEditable --></li>
+<!-- the image to float on the right -->
+            <li class="righty"><!-- TemplateBeginEditable name="image3" --><img src="../assets/images/graduate-show_4.png" width="395" height="601" 
+            alt="image3"/><!-- TemplateEndEditable --></li>
+<!-- the image at the bottom -->
+            <li><!-- TemplateBeginEditable name="image4" --><img src="../assets/images/graduate-show_2.png" width="810" height="456" 
+            alt="image4"/><!-- TemplateEndEditable --></li>
+        </ol>
+
+<!-- end of content -->
+	</div>
+        
+<!-- FOOTER -->
+	<div id="footer">
+   		<ol class="footerlist">
+        	<li><a href="#top"title="link to top of page" class="alignbottom"><img src="../assets/images/back_to_top.png" alt="link to top"/></a></li>
+            <li id="firstcol"  class="alignbottom"><img src="../assets/images/previous_project.png" width="12" height="11" alt="previous"/></li>
+            <li id="secondcol" class="alignbottom"><a class="backtoproj" href="../home.html" title="link to homepage">All Projects</a></li>
+            <li id="thirdcol" class="alignbottom"><img src="../assets/images/next_projects.png" width="12" height="11" alt="next"/></li>
+		</ol>
+    </div>
+   
+<!-- END OF CONTAINER -->
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,235 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>portfolio site</title>
+<link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+
+<link href="../assets/scripts/css/amy-structure.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+<div id="container">
+
+<!-- HEADER -->
+	 
+	<div id="header" name="top">
+		<h1><a href="../home.html" title="link to homepage" id="logo">Amy O'Donnell Designer Visual Identity</a></h1>
+			<div id="navigation">
+				<ol class="navlist">
+					<li><a class="navtext" href="../home.html" title="link to homepage">Home</a></li>
+                    <li><a class="navtext" href="../about.html" title="link to info">info</a></li>
+            	</ol>
+        	</div>
+	</div>
+        
+<!-- CONTENT -->  
+
+ 	<div id="content">
+            
+<!-- LEFT COLUMN -->
+   
+	<div id="leftcol">
+		<ol class="projectlist 1">
+			<li>
+				<div class="hover_area small_pic"  >
+					<div class = "small_pic">
+                  		<!-- TemplateBeginEditable name="proj1images" -->
+                    	<a href="#">
+                   				<img src="../assets/images/project_1_1519.png" class="colour_image col_element small_pic"  alt="Image1" />
+                        		<img src="../assets/images/project_1_1519_bw.png" class="bw_image col_element small_pic" alt="Image1" />
+                        </a>
+                    	<!-- TemplateEndEditable -->
+                  	</div>
+                    <div class="rollover_text">
+                	<!-- TemplateBeginEditable name="proj1title" --><p>What is Visual Communications?</p><!-- TemplateEndEditable -->
+                	</div>
+                </div>    	
+                
+            </li>
+            <li>	
+            	<div class="hover_area large_pic" >
+                	<div class = "large_pic">
+					<!-- TemplateBeginEditable name="proj2images" -->
+						<a href="#">
+                   		  	<img src="../assets/images/Project_2_ISTD.png" class="colour_image col_element large_pic" alt="Image2" />
+                          	<img src="../assets/images/Project_2_ISTD_bw.png" class="bw_image col_element large_pic"  alt="Image2" />
+                  		</a>
+                    <!-- TemplateEndEditable -->
+                  	</div>
+                    <div class="rollover_text">
+                	<!-- TemplateBeginEditable name="proj2title" --><p>Succession in Irish Family Farming</p><!-- TemplateEndEditable -->
+               		</div> 
+                </div>        
+                
+           	</li>
+            <li>
+            	<div class="hover_area large_pic" >
+               		<div class = "large_pic">
+                    <!-- TemplateBeginEditable name="proj3images" -->
+                    	<a href="#">
+                        	<img src="../assets/images/Project_3_infographics.png" class="colour_image col_element large_pic" alt="Image3" />
+                       		<img src="../assets/images/Project_3_infographics_bw.png" class="bw_image col_element large_pic"  alt="Image3" />
+                        </a>
+                    <!-- TemplateEndEditable -->
+                  	</div>
+                    <div class="rollover_text">
+                	<!-- TemplateBeginEditable name="proj3title" --><p>WorldCup Inforgraphics</p><!-- TemplateEndEditable -->
+                	</div>
+                </div>
+                
+            </li>  
+		</ol>
+	</div>
+            
+
+<!-- MIDDLE COLUMN -->
+    
+	<div id="midcol">
+		<ol class="projectlist 2">
+			<li>
+				<div class="hover_area large_pic" >
+ 					<div class = "large_pic">
+                    <!-- TemplateBeginEditable name="proj4images" -->                    
+                    	<a href="../projectpage1.html" title="link to project page">
+                   			<img src="../assets/images/project_4_graduateshow.png" class="colour_image col_element large_pic"  alt="Image4" />
+                        	<img src="../assets/images/project_4_graduateshow_bw.png" class="bw_image col_element large_pic"  alt="Image4" />
+                  		</a>
+                    <!-- TemplateEndEditable -->                        
+                  	</div>
+                    <div class="rollover_text">
+                	<!-- TemplateBeginEditable name="proj4title" --><p>LSAD Graduate Show</p><!-- TemplateEndEditable -->
+                	</div>
+                </div>
+                
+            </li>
+            <li>
+            	<div class="hover_area large_pic" >
+            		<div class = "large_pic">
+                    <!-- TemplateBeginEditable name="proj5images" -->                    
+                    	<a href="#">
+                   			<img src="../assets/images/project_5_amnesty.png" class="colour_image col_element large_pic" alt="Image5" />
+                        	<img src="../assets/images/project_5_amnesty_bw.png" class="bw_image col_element large_pic" alt="Image5" />
+                 		</a>
+                    <!-- TemplateEndEditable -->                        
+                  	</div>
+                    <div class="rollover_text">
+                	<!-- TemplateBeginEditable name="proj5title" --><p>Amnesty Internation</p><!-- TemplateEndEditable -->
+                	</div>	
+               	</div>
+                
+           	 </li>
+             <li>
+             	<div class="hover_area small_pic" >
+             		<div class = "small_pic">
+                    <!-- TemplateBeginEditable name="proj6images" -->                    
+                    	<a href="#">
+                   			<img src="../assets/images/project_6_think.png" class="colour_image col_element small_pic" alt="Image6" />
+                        	<img src="../assets/images/project_6_think_bw.png" class="bw_image col_element small_pic" alt="Image6" />
+                  		</a>
+                    <!-- TemplateEndEditable -->                        
+                  	</div>
+                    <div class="rollover_text">
+					<!-- TemplateBeginEditable name="proj6title" --><p>Th!nk Healthcare</p><!-- TemplateEndEditable -->
+                	</div>
+                 </div>
+                 
+			</li>  
+		</ol>
+	</div>
+            
+            
+<!-- RIGHT COLUMN -->
+    
+	<div id="rightcol">
+		<ol class="projectlist 3">
+			<li>
+				<div class="hover_area small_pic" >
+					<div class = "small_pic">
+                    <!-- TemplateBeginEditable name="proj7images" -->                    
+						<a href="#">
+							<img src="../assets/images/project_7_blocparty.png" class="colour_image col_element small_pic" alt="Image7" />
+							<img src="../assets/images/project_7_blocparty_bw.png" class="bw_image col_element small_pic" alt="Image7" />
+						</a>
+                    <!-- TemplateEndEditable -->                        
+					</div>
+                    <div class="rollover_text">
+                    <!-- TemplateBeginEditable name="proj7title" --><p>Bloc Party LP cover</p><!-- TemplateEndEditable -->
+                    </div>                    
+				</div>
+
+			</li>
+			<li>
+				<div class="hover_area small_pic" >
+					<div class = "small_pic">
+                    <!-- TemplateBeginEditable name="proj8images" -->                    
+                   		<a href="#">
+							<img src="../assets/images/project_8_bigsleep.png" class="colour_image col_element small_pic" alt="Image8" />
+							<img src="../assets/images/project_8_bigsleep_bw.png" class="bw_image col_element small_pic" alt="Image8" />
+						</a>
+                    <!-- TemplateEndEditable -->                        
+					</div>
+                    <div class="rollover_text">
+                	<!-- TemplateBeginEditable name="proj8title" --><p>The Big Sleep</p><!-- TemplateEndEditable -->
+                	</div>
+				</div>
+                
+			</li>
+			<li>
+				<div class="hover_area small_pic" >
+					<div class = "small_pic">
+                    <!-- TemplateBeginEditable name="proj9images" -->                    
+						<a href="#">
+							<img src="../assets/images/project_9_fcb.png" class="colour_image col_element small_pic" alt="Image9" />
+							<img src="../assets/images/project_9_fcb_bw.png" class="bw_image col_element small_pic" alt="Image9" />
+						</a>
+                  	<!-- TemplateEndEditable -->                        
+					</div>
+                    <div class="rollover_text">
+                	<!-- TemplateBeginEditable name="proj9title" --><p>The Flying Cheese Brigade</p><!-- TemplateEndEditable -->
+                	</div>
+				</div>
+                
+			</li>
+			<li>
+				<div class="hover_area large_pic" >
+					<div class = "large_pic">
+                    <!-- TemplateBeginEditable name="proj10images" -->                    
+	                  <a href="#">
+						  <img src="../assets/images/project_10_gasnetworksireland.png" class="colour_image col_element large_pic"  alt="Image10" />
+                          <img src="../assets/images/project_10_gasnetworksireland_bw.png" class="bw_image col_element large_pic"  alt="Image10" />
+					  </a>
+                  	<!-- TemplateEndEditable -->                        
+					</div>
+                    <div class="rollover_text">
+                	<!-- TemplateBeginEditable name="proj10title" --><p>Gas Networks Ireland</p><!-- TemplateEndEditable -->
+                	</div>
+				</div>
+                
+			</li>  
+		</ol>
+	</div>
+</div>   
+ 
+<!-- END OF CONTENT -->
+        
+<!-- FOOTER -->
+<div id="footer">
+	<ol class="footerlist">
+		<li><a href="#top" title="link to top of page">
+ 			<img src="../assets/images/back_to_top.png" alt="link to top"/></a>
+        </li>
+	</ol>
+</div>
+            	
+</div>
+
+<!-- Load the javascript file last. Don't slow your page from loading. -->
+<!-- Include jquery to make your life a whole lot easier -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" type="text/javascript"></script>
+<!-- This is your custom javascript file -->
+<script src="../assets/scripts/js/rollover.js" type="text/javascript"> </script>
+
+</body>
+</html>
