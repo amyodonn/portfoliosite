@@ -19,7 +19,7 @@
 			<div id="navigation">
 				<ol class="navlist">
 					<li><a class="navtext" href="../home.html" title="link to homepage">Home</a></li>
-                    <li><a class="navtext" href="../about.html" title="link to info">info</a></li>
+                    <li><a class="navtext" href="../info.html" title="link to info">Info</a></li>
             	</ol>
         	</div>
 	</div>

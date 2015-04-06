@@ -19,7 +19,7 @@
 			<div id="navigation">
 				<ol class="navlist">
 					<li><a class="navtext" href="../home.html" title="link to homepage">Home</a></li>
-                    <li><a class="navtext" href="../about.html" title="link to info">info</a></li>
+                    <li><a class="navtext" href="../about.html" title="link to info">Info</a></li>
             	</ol>
         	</div>
 	</div>
@@ -43,6 +43,8 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" type="text/javascript"></script>
 <!-- This is your custom javascript file -->
 <script src="../assets/scripts/js/rollover.js" type="text/javascript"> </script>
+<!-- Javascript file for info page -->
+<script src="../assets/scripts/js/info_rollover.js" type="text/javascript"> </script>
 
 </body>
 </html>

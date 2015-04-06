@@ -21,7 +21,7 @@
     	<div id="navigation">
             <ol class="navlist">
             	<li><a class="navtext" href="../home.html" title="link to homepage">Home</a></li>
-            	<li><a class="navtext" href="../home.html" title="link to info">info</a></li>
+            	<li><a class="navtext" href="../info.html" title="link to info">Info</a></li>
         	</ol>
 		</div>
 	</div>
@@ -30,32 +30,31 @@
 
 	<div id="content"> 
 		<ul class="image1">
-  			<li><!-- TemplateBeginEditable name="image1" --><img src="../assets/images/graduate-show_1.png" width="810" height="456" alt="grad1"/>
-				<!-- TemplateEndEditable -->
-			</li> 
+  			<!-- TemplateBeginEditable name="image1" --><li><img src="../assets/images/graduate-show_1.png" width="810" height="456" alt="grad1"/>
+			</li> <!-- TemplateEndEditable -->
         </ul
     	    	
-    	<div id="info">
-        	<h2 class="title"><!-- TemplateBeginEditable name="title" -->LSAD Graduate Show<!-- TemplateEndEditable --></h2>
-        	<h3 class="subtitle"><!-- TemplateBeginEditable name="subtitle" -->Identity, Print, Environmental<!-- TemplateEndEditable --></h3>
-        	<ol class="informational_text">
-        		<li class="information"><!-- TemplateBeginEditable name="info1" -->A collaborative effort with Threasa Phelan. LSAD 2015 graduate show visual 				identity and design strategy.<!-- TemplateEndEditable --></li>
-        		<li class="information2"><!-- TemplateBeginEditable name="info2" -->The 'ON' campaign represents the confidence and energy of the 
+    	><div id="info">
+        	<!-- TemplateBeginEditable name="title" --><h2 class="title">LSAD Graduate Show</h2><!-- TemplateEndEditable -->
+        	<!-- TemplateBeginEditable name="subtitle" --><h3 class="subtitle">Identity, Print, Environmental</h3><!-- TemplateEndEditable -->
+        	<ol class="project_info_text">
+        		<!-- TemplateBeginEditable name="info1" --><li class="information">A collaborative effort with Threasa Phelan. LSAD 2015 graduate show visual 				identity and design strategy.</li><!-- TemplateEndEditable -->
+        		<!-- TemplateBeginEditable name="info2" --><li class="information2">The 'ON' campaign represents the confidence and energy of the 
                	graduates of LSAD.The title also suggests the students themselves are 'ON' and are at the top of their game. blah blah blah blah blah.
-				<!-- TemplateEndEditable --></li>
+				</li><!-- TemplateEndEditable -->
         	</ol>     
 		</div>
         	
         <ol class="otherimages">
 <!-- the image to float on the left -->
-        	<li class="lefty"><!-- TemplateBeginEditable name="image2" --><img src="../assets/images/graduate-show_3.png" width="395" height="601" 
-            alt="image2"/><!-- TemplateEndEditable --></li>
+        	<!-- TemplateBeginEditable name="image2" --><li class="lefty"><img src="../assets/images/graduate-show_3.png" width="395" height="601" 
+            alt="image2"/></li><!-- TemplateEndEditable -->
 <!-- the image to float on the right -->
-            <li class="righty"><!-- TemplateBeginEditable name="image3" --><img src="../assets/images/graduate-show_4.png" width="395" height="601" 
-            alt="image3"/><!-- TemplateEndEditable --></li>
+            <!-- TemplateBeginEditable name="image3" --><li class="righty"><img src="../assets/images/graduate-show_4.png" width="395" height="601" 
+            alt="image3"/></li><!-- TemplateEndEditable -->
 <!-- the image at the bottom -->
-            <li><!-- TemplateBeginEditable name="image4" --><img src="../assets/images/graduate-show_2.png" width="810" height="456" 
-            alt="image4"/><!-- TemplateEndEditable --></li>
+            <!-- TemplateBeginEditable name="image4" --><li><img src="../assets/images/graduate-show_2.png" width="810" height="456" 
+            alt="image4"/></li><!-- TemplateEndEditable -->
         </ol>
 
 <!-- end of content -->
