@@ -25,6 +25,21 @@ body {
 	font-family:"Inconsolata", "PT mono", monospace; font-weight:400; font-style:normal;
 	}
 
+h1 {
+	font-size:1.3em;
+	line-height:.5em;
+	margin: 23.5px 0 0 0;
+	font-family:"Inconsolata", "PT mono", monospace; font-weight:700; font-style:normal;
+	}
+	
+.subtitles_home {
+	font-size:1em;
+	line-height:1px
+	font-family:"Inconsolata", "PT mono", monospace; font-weight:400; font-style:normal;
+	color:#000;
+	}
+	
+	
 /*----THIS REFERS TO TITLE-------------*/
 
 h2 {
@@ -110,7 +125,6 @@ h3 {
 			position: absolute;
 			text-align:left;
 			}
-
 
 
 /*-----IMAGES IN HOME PAGE-----*/
