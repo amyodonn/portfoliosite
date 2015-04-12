@@ -200,7 +200,7 @@ Also used by the hover_area div's. Needs to be as big as image was. */
 #info_left_col{
 	float: left;
 	width: 395px;
-	margin: 15.5px 0 0 41.5px;
+	margin: 0 20px 0 auto;
 }
 		
 /*----------MIDDLE COLUMN HOME--------*/
@@ -222,7 +222,7 @@ Also used by the hover_area div's. Needs to be as big as image was. */
 #info_right_col{
 	float: left;
 	width: 395px;
-	margin: 0 20px 0 0;
+	margin: 0 0 0 0;
 }	
 						
 /*----------PROJECT PAGE CONTENT------*/	
